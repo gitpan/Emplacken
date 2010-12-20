@@ -1,0 +1,62 @@
+{
+   "abstract" : "Manage multiple plack apps with a directory of config files",
+   "author" : [
+      "Dave Rolsky <autarch@urth.org>"
+   ],
+   "dynamic_config" : 0,
+   "generated_by" : "Dist::Zilla version 4.200000, CPAN::Meta::Converter version 2.101670",
+   "license" : [
+      "artistic_2"
+   ],
+   "meta-spec" : {
+      "url" : "http://search.cpan.org/perldoc?CPAN::Meta::Spec",
+      "version" : "2"
+   },
+   "name" : "Emplacken",
+   "prereqs" : {
+      "configure" : {
+         "requires" : {
+            "ExtUtils::MakeMaker" : "6.31"
+         }
+      },
+      "runtime" : {
+         "requires" : {
+            "Class::Load" : 0,
+            "Config::Any" : 0,
+            "File::Pid" : 0,
+            "List::AllUtils" : 0,
+            "Moose" : 0,
+            "MooseX::Getopt" : 0,
+            "MooseX::Types" : 0,
+            "MooseX::Types::Path::Class" : 0,
+            "MooseX::Types::Perl" : 0,
+            "Path::Class" : 0,
+            "Text::Template" : 0,
+            "autodie" : 0,
+            "namespace::autoclean" : 0
+         }
+      },
+      "test" : {
+         "requires" : {
+            "File::Temp" : 0,
+            "Test::Compile" : 0,
+            "Test::Fatal" : 0,
+            "Test::More" : "0.88"
+         }
+      }
+   },
+   "release_status" : "stable",
+   "resources" : {
+      "bugtracker" : {
+         "mailto" : "bug-app-emplacken@rt.cpan.org",
+         "web" : "http://rt.cpan.org/NoAuth/Bugs.html?Dist=App-Emplacken"
+      },
+      "repository" : {
+         "type" : "hg",
+         "url" : "http://hg.urth.org/hg/App-Emplacken",
+         "web" : "http://hg.urth.org/hg/App-Emplacken"
+      }
+   },
+   "version" : "0.01"
+}
+

@@ -1,0 +1,18 @@
+use strict;
+use warnings;
+
+use Mojo::Server::PSGI;
+use MyApp1;
+{{$modules}}
+{{$pre}}
+
+my $server = Mojo::Server::PSGI->new( app_class => 'MyApp1' );
+
+builder {
+    {{ if (defined $builder_pre) { $builder_pre } }}
+    {{ if (defined $mw) { $mw } }}
+    sub { $server->run(@_) };
+};
+
+{{$post}}
+

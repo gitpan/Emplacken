@@ -1,0 +1,58 @@
+This file contains message digests of all files listed in MANIFEST,
+signed via the Module::Signature module, version 0.61.
+
+To verify the content in this distribution, first make sure you have
+Module::Signature installed, then type:
+
+    % cpansign -v
+
+It will check each file's integrity, as well as the signature's
+validity.  If "==> Signature verified OK! <==" is not displayed,
+the distribution may already have been compromised, and you should
+not run its Makefile.PL or Build.PL.
+
+-----BEGIN PGP SIGNED MESSAGE-----
+Hash: SHA1
+
+SHA1 00e1c3594dfe02fad221ca81f759b5ff2c2aadb1 Changes
+SHA1 0412af7dc01a68362fbbe016c2bfd21c9bd75dfb INSTALL
+SHA1 23c628b4a8a36738405ccdacaeb912d2e727b4c0 LICENSE
+SHA1 ab2212fbb2296fa326138bf44da7dcc05f00b5c6 MANIFEST
+SHA1 69278a47edcbf32fc4084ff3561fa8d35f2731a6 META.json
+SHA1 b4a91105de767a8d23699da929eba5d593b68d7a META.yml
+SHA1 2d85f2c7a5dc5feb3a9c3d0b32f2cee815503042 Makefile.PL
+SHA1 b9f24192bf339d9e11f7e09c29820f0840b61b32 README
+SHA1 9d696094540095289d3a3a394566b10a651c5e91 bin/emplacken
+SHA1 e0706baa167e22638c5eaf2dd6cdd0c7333fbebe dist.ini
+SHA1 d48640ccceddf52e905cd0d97f81786a319cc9e0 lib/Emplacken.pm
+SHA1 5ef44c3460dcff28c9795a857c2fdc2a32448a32 lib/Emplacken/App.pm
+SHA1 1b4554ba6eb3727bdec23d0751ee5d620feec495 lib/Emplacken/App/Starman.pm
+SHA1 203b718d8671bac900cb0b5018400a86dde121b8 lib/Emplacken/CodeBuilder/Catalyst.pm
+SHA1 88b6121364083513b8e281a6caf48f5ff4fe7657 lib/Emplacken/CodeBuilder/Dancer.pm
+SHA1 d672a8ba76dee486a6fe2491c5e74965e26eb04d lib/Emplacken/CodeBuilder/FromTemplate.pm
+SHA1 b2c35d4a2b4e2597bfe1ecf1c334519a21ab21fa lib/Emplacken/CodeBuilder/Mason.pm
+SHA1 c35cc8bf659b030a25939ee420164182c3cfec0e lib/Emplacken/CodeBuilder/Mojo.pm
+SHA1 fe5f6df5f569e200e8abe77fd5ad8dbec35d2601 lib/Emplacken/Role/CodeBuilder.pm
+SHA1 f0ca5eb00a8cd01eb10e0888f58d03c9bc7ba44f lib/Emplacken/Stderr.pm
+SHA1 44196b4315738c7e7b0fcd38a68d6156a30face9 lib/Emplacken/Types.pm
+SHA1 ac1296a36ab020f153396739d42574036c0dae24 lib/Emplacken/Types/Internal.pm
+SHA1 47d70f1d8ddf67df7f22e906a53162b8569e8453 t/App.t
+SHA1 386831d526fd050992d11c8ebf40d48a099cd6dc t/Emplacken.t
+SHA1 b6bf1b06ea0ab0f3325f4facbc699bda1aec4de1 t/Stderr.t
+SHA1 e0fa71783d3d57e5a17cba9e461dae157ecc2fa3 t/conf/bad/bad1.conf
+SHA1 6e1cea4d963da5b8d1f64c0568f3592cf92e3681 t/conf/good/app1.conf
+SHA1 1f9509fa51bbd87a92309e5d2b8f1b9bdc7cb1fd t/conf/good/app2.conf
+SHA1 da39a3ee5e6b4b0d3255bfef95601890afd80709 t/conf/good/empty.conf
+SHA1 011cb076f4941e9c0353fb55d3ac710fac6dc5db t/lib/MyApp1.pm
+SHA1 a032c41ef6887fab1b900669c2d304fab46680e2 t/release-eol.t
+SHA1 455d1dd1867212a665ad5ea4126b572411de300c t/release-no-tabs.t
+SHA1 db2345371a29fbe0e1cb93fd53cdc2138a58b85e t/release-pod-spell.t
+SHA1 b30cbdfaf935017c4568c0c91b242438cb87786e t/release-pod-syntax.t
+SHA1 3d4d035b19a736ecde1a83dd8181b0bb9cd3cc42 t/share/app.psgi.tmpl
+-----BEGIN PGP SIGNATURE-----
+Version: GnuPG v1.4.10 (GNU/Linux)
+
+iEYEARECAAYFAk0P5lsACgkQIgMCsV8qvRJ3hACfYfqk7r9/rHKN61X7AG6+WQly
+mpUAnRLzlYoJbu8tSg0Gu85ny7jNJEfQ
+=HNGs
+-----END PGP SIGNATURE-----
